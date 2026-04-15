@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  transpilePackages: ["@cafe-system/types", "@cafe-system/ui", "@cafe-system/utils"],
 };
 
 export default nextConfig;

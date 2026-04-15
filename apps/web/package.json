@@ -1,14 +1,17 @@
 {
-  "name": "coffee-system-frontend",
+  "name": "@cafe-system/web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@cafe-system/types": "workspace:*",
+    "@cafe-system/ui": "workspace:*",
     "next": "16.2.0",
     "react": "19.2.4",
     "react-dom": "19.2.4"
