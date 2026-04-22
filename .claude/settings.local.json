@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(gunzip -c \"/c/Users/LENOVO/.claude/projects/C--Users-LENOVO-Documents-Work-cafe-system/8cbaf226-faa2-4bb1-86ca-6f3947cb1aad/tool-results/webfetch-1776807496412-9kfle3.bin\")",
+      "Bash(python3 -c ' *)",
+      "Bash(cd /tmp)",
+      "Bash(mkdir aurora_design)",
+      "Bash(tar -xf \"/c/Users/LENOVO/.claude/projects/C--Users-LENOVO-Documents-Work-cafe-system/8cbaf226-faa2-4bb1-86ca-6f3947cb1aad/tool-results/webfetch-1776807496412-9kfle3.bin\" -C aurora_design)",
+      "Read(//tmp/**)",
+      "Bash(rm -rf app next.config.ts postcss.config.mjs eslint.config.mjs CLAUDE.md AGENTS.md README.md src/schema src/utils)",
+      "Read(//c/c/Users/LENOVO/Documents/Work/cafe-system/apps/**)",
+      "Bash(pnpm --filter @cafe-system/web install)",
+      "Bash(pnpm --filter @cafe-system/web run typecheck)",
+      "Bash(pnpm --filter @cafe-system/web add -D @vitejs/plugin-react)",
+      "Bash(pnpm --filter @cafe-system/web add -D @vitejs/plugin-react@4)",
+      "Bash(pnpm --filter @cafe-system/web run build)",
+      "Bash(pnpm --filter @cafe-system/web run dev)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(pnpm *)"
+    ]
+  }
+}
